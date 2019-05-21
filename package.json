@@ -1,0 +1,26 @@
+{
+  "name": "slsinversify",
+  "version": "1.0.0",
+  "description": "Serverless webpack example using Typescript",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "inversify": "^5.0.1",
+    "reflect-metadata": "^0.1.13",
+    "source-map-support": "^0.5.10"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.17",
+    "@types/node": "^10.12.18",
+    "serverless-offline": "^4.10.5",
+    "serverless-webpack": "^5.2.0",
+    "ts-loader": "^5.3.3",
+    "tslint": "^5.16.0",
+    "typescript": "^3.2.4",
+    "webpack": "^4.29.0"
+  },
+  "author": "The serverless webpack authors (https://github.com/elastic-coders/serverless-webpack)",
+  "license": "MIT"
+}
