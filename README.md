@@ -15,6 +15,18 @@ Basicly implemented what is described in this post:
 
 ## How to
 
-    git clone
-    npm i
-    npm start
+    $ git clone
+    $ npm i
+    $ npm start
+
+then you can open:
+
+    localhost:3000/test
+
+and see in the console the related logs:
+
+    got repo from container
+    got logger from container
+    DEBUG: Use injected logger into repository. Get data
+    DEBUG: Account ok: true
+    DEBUG: Dependencies are wired correctly
